@@ -4,5 +4,13 @@
   "main": "dist/server/index.js",
   "compatibility_date": "2026-11-10",
   "workers_dev": true,
-  "observability": { "enabled": true }
+  "observability": {
+    "enabled": true
+  },
+  "kv_namespaces": [
+    {
+      "binding": "FTSHARE_CACHE",
+      "id": "3e687e22c6944fe0a09a0f01671be9f0"
+    }
+  ]
 }
